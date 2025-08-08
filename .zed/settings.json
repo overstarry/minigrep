@@ -1,0 +1,18 @@
+{
+  "terminal": {
+    "shell": {
+      "program": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+      // "program": "wsl.exe -d Ubuntu-20.04"
+    },
+    "detect_venv": {
+      "on": {
+        // Default directories to search for virtual environments, relative
+        // to the current working directory. We recommend overriding this
+        // in your project's settings, rather than globally.
+        "directories": [".venv", "venv"],
+        // Can also be `csh`, `fish`, `nushell` and `power_shell`
+        "activate_script": "power_shell"
+      }
+    }
+  }
+}
